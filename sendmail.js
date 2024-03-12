@@ -9,7 +9,7 @@ function SendMail(){
     }
     try{
         emailjs.send("service_fbugajd", "template_ckvu8j2", params).then(function(res){
-            alert("You're appointment has been scheduled" + res.status);
+            alert("You're appointment has been scheduled!");
             console.log("sent");
         })
     }
